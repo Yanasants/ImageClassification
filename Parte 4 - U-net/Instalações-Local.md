@@ -8,11 +8,11 @@
 
     No terminal: 
 
-        *conda create --name nome_do_environment*
+        conda create --name nome_do_environment
 
     Ativando o environment:
     
-        *conda activate nome_do_environment*
+        conda activate nome_do_environment
 
 3. **Verificando quais versões do CUDA e cuDNN o TensorFlow exige**
 
@@ -22,17 +22,17 @@
 
     Pesquisando as versões disponíveis do CUDA através do comando:
 
-        *conda search cudatoolkit*
+        conda search cudatoolkit
 
     Para essa pesquisa, foi baixada a versão 11.3.1, através do comando:
 
-        *conda install cudatoolkit=11.3.1*
+        conda install cudatoolkit=11.3.1
 
 5. **Instalação do cuDNN**
 
     É importante verificar a compatibilidade entre as versões do cuDNN e do CUDA. Pesquisando as versões disponíveis do cuDNN através do comando:
 
-    *conda search cudnn*    
+        conda search cudnn
 
     Para essa pesquisa, foi baixada a versão 8.2.1, através do comando:
 
