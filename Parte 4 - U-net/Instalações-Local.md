@@ -41,8 +41,7 @@
 6. **Instalação do TensorFlow**
 
     Pesquisando as versões disponíveis do TensorFlow:
-
-        *conda search tensorflow*
+        _conda search tensorflow_
 
     Para essa pesquisa, foi baixada a versão 2.6.0:
 
@@ -60,7 +59,7 @@
 
     Selecione o environment criado.
 
-    
+
 
 
     
