@@ -1,3 +1,3 @@
 ## Processos de instalação local - LabIC
 
-1. **Instalação do Anaconda**
+1. **Instalação do Anaconda TESTE**
