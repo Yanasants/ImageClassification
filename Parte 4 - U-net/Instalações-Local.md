@@ -32,20 +32,21 @@
 
     É importante verificar a compatibilidade entre as versões do cuDNN e do CUDA. Pesquisando as versões disponíveis do cuDNN através do comando:
 
-        *conda search cudnn*
+    *conda search cudnn*    
 
     Para essa pesquisa, foi baixada a versão 8.2.1, através do comando:
 
-        *conda install cudnn=8.2.1*
+        conda install cudnn=8.2.1
 
 6. **Instalação do TensorFlow**
 
     Pesquisando as versões disponíveis do TensorFlow:
-        _conda search tensorflow_
+
+        conda search tensorflow
 
     Para essa pesquisa, foi baixada a versão 2.6.0:
 
-        *conda install tensorflow=2.6.0*
+        conda install tensorflow=2.6.0
 
 7. **Abrindo o environment pelo VS Code**
 
@@ -55,7 +56,7 @@
 
     Procure:
 
-        *Python: Select Interpreter*
+        Python: Select Interpreter
 
     Selecione o environment criado.
 
